@@ -27,6 +27,12 @@
             outline-color:blue;
             overflow-x: auto;
         }
+        codeout{
+            color:brown;
+        }
+        codenote{
+            color: green;
+        }
 	</style><!--链接样式、文字颜色与背景图片-->
 </head>
 <body>
@@ -84,34 +90,34 @@
 <p>数组是MATLAB运算的核心.
 <br>数组的创建, 类似于Python, 可以采用类似range和list的方法, 同时也有一些常用的数组可以直接用函数创建:</p>
 <pre>
-    <code>1:2:11     % 步始:步长:步终, 包括步始和步终</code>
-    <code>11:-2:1    % 步始、步终交换, 步长为负</code>
-    <code>1:11       % 直接使用步始、步终</code>
+    <code>1:2:11     </code><codenote>% 步始:步长:步终, 包括步始和步终</codenote>
+    <code>11:-2:1    </code><codenote>% 步始、步终交换, 步长为负</codenote>
+    <code>1:11       </code><codenote>% 直接使用步始、步终</codenote>
     <br>
-    <code>linspace(1, 5, 3)     % 以等差构造, 首项1, 末项5, 3项</code>
-    <code>logspace(1, 5, 3)     % 以10^x构造, 首项10^1, 末项10^5, 3项</code>
+    <code>linspace(1, 5, 3)     </code><codenote>% 以等差构造, 首项1, 末项5, 3项</codenote>
+    <code>logspace(1, 5, 3)     </code><codenote>% 以10^x构造, 首项10^1, 末项10^5, 3项</codenote>
     <br>
-    <code>[1, 2, 3; 4, 5, 6]        % 2x3数组</code>
+    <code>[1, 2, 3; 4, 5, 6]        </code><codenote>% 2x3数组</codenote>
     <code>a = [1; 3]; b = [2; 4];</code>
-    <code>[a, b]                    % 数组拼接</code>
+    <code>[a, b]                    </code><codenote>% 数组拼接</codenote>
     <br>
-    <code>rng(1)                % 随机数种子</code>
-    <code>rand(2, 3)            % 0-1均匀分布, 2x3</code>
-    <code>randn(2)              % 标准正态分布, 2x2(只写一个为方阵)</code>
-    <code>randi([1, 10], 2, 3)  % 在1:10随机取整数, 2x3</code>
+    <code>rng(1)                </code><codenote>% 随机数种子</codenote>
+    <code>rand(2, 3)            </code><codenote>% 0-1均匀分布, 2x3</codenote>
+    <code>randn(2)              </code><codenote>% 标准正态分布, 2x2(只写一个为方阵)</codenote>
+    <code>randi([1, 10], 2, 3)  </code><codenote>% 在1:10随机取整数, 2x3</codenote>
     <br>
-    <code>ones(3)           % 全1矩阵</code>
-    <code>zeros(3)          % 全0矩阵</code>
-    <code>eye(3)            % 主对角为1其余为0</code>
+    <code>ones(3)           </code><codenote>% 全1矩阵</codenote>
+    <code>zeros(3)          </code><codenote>% 全0矩阵</codenote>
+    <code>eye(3)            </code><codenote>% 主对角为1其余为0</codenote>
     <code>v = [1, 2, 3];</code>
-    <code>diag(v)           % 对角阵</code>
+    <code>diag(v)           </code><codenote>% 对角阵</codenote>
 </pre>
 <p>MATLAB用小括号获取元素或者给该位置赋值, 小括号第几个数为第几个维度上的索引.
 <br>可以用数组索引, 类似于切片, 其中末下标保留字为end.
 <br>MATLAB支持数组给数组赋值, 切片得到的数组同理, 因此可以赋值[]来消去一部分的数组.
 <br>如果用单一数字为下标, 进行迭代索引, 迭代顺序类似于:</p>
 <pre>
-    伪代码:
+    <codenote>伪代码:</codenote>
     <code>for k:</code>
     <code>    for j:</code>
     <code>        for i:</code>
@@ -123,16 +129,16 @@
     <code>a(:)</code>
     <code>b = reshape(a, 2, 3, 4);</code>
     <code>b(:, :)</code>
-    <code>% 利用:作为缺省时, 如果维度缺少一个, 则按照最后一个维度逐索引切片并沿倒数第二个维度拼接以实现维度压缩</code>
+    <codenote>% 利用:作为缺省时, 如果维度缺少一个, 则按照最后一个维度逐索引切片并沿倒数第二个维度拼接以实现维度压缩</codenote>
     <br>
     <code>b(:, 1, :)</code>
-    <code>% 给定有某一维度的索引, 则对所有该维度索引为给定索引的元素迭代, 新数组除该维度长度为索引长度外其余维度长度不变</code>
+    <codenote>% 给定有某一维度的索引, 则对所有该维度索引为给定索引的元素迭代, 新数组除该维度长度为索引长度外其余维度长度不变</codenote>
 </pre>
 <p>MATLAB可以制造示性数组和条件索引数组:</p>
 <pre>
-    <code>(a > 0)       % 按照a > 0条件生成a的示性数组</code>
-    <code>find(a > 0)   % 满足条件的索引的数组</code>
-    <code>find(a)       % 按照惯例, 默认为非零即真</code>
+    <code>(a > 0)       </code><codenote>% 按照a > 0条件生成a的示性数组</codenote>
+    <code>find(a > 0)   </code><codenote>% 满足条件的索引的数组</codenote>
+    <code>find(a)       </code><codenote>% 按照惯例, 默认为非零即真</codenote>
 </pre>
 <p>MATLAB支持数组给数组赋值, 切片得到的数组同理, 因此可以赋值[]来消去一部分的数组.
 <br>repmat(mat, [m, n])将一个数组mat按照[m, n]自拼接在一起.
@@ -142,28 +148,28 @@
 <p>sort用于排序:</p>
 <pre>
     <code>a = reshape(1:12, 3, 4);</code>
-    <code>[~, idx] = sort(a)                    % 平行于轴1升序(默认), 可以解包赋值分别得到排序后数组和排序索引数组, 这里用~忽略了排序后数组</code>
-    <code>sort(a, 2, 'descend')                 % 平行于轴2排序, 'ascend'为升序, 'descend'为降序</code>
-    <code>sort(a, 'ComparisonMethod', 'abs')    % 取函数值排序</code>
+    <code>[~, idx] = sort(a)                    </code><codenote>% 平行于轴1升序(默认), 可以解包赋值分别得到排序后数组和排序索引数组, 这里用~忽略了排序后数组</codenote>
+    <code>sort(a, 2, 'descend')                 </code><codenote>% 平行于轴2排序, 'ascend'为升序, 'descend'为降序</codenote>
+    <code>sort(a, 'ComparisonMethod', 'abs')    </code><codenote>% 取函数值排序</codenote>
 </pre>
 <p>数组可以运算, 分为数组整体运算和逐元素运算:</p>
 <pre>
-    <code>a'    % 取共轭的转置</code>
-    <code>a*b   % 矩阵乘法</code>
-    <code>3*a   % 数乘3</code>
-    <code>a/b   % 相当于a*b逆</code>
-    <code>b\a   % 相当于b逆*a, 左除性能优于右除</code>
-    <code>a/3   % 数乘1/3</code>
-    <code>3\a   % 同上</code>
-    <code>a^4   % a的4次方</code>
-    <code>4^a   % 4的a次方</code>
+    <code>a'    </code><codenote>% 取共轭的转置</codenote>
+    <code>a*b   </code><codenote>% 矩阵乘法</codenote>
+    <code>3*a   </code><codenote>% 数乘3</codenote>
+    <code>a/b   </code><codenote>% 相当于a*b逆</codenote>
+    <code>b\a   </code><codenote>% 相当于b逆*a, 左除性能优于右除</codenote>
+    <code>a/3   </code><codenote>% 数乘1/3</codenote>
+    <code>3\a   </code><codenote>% 同上</codenote>
+    <code>a^4   </code><codenote>% a的4次方</codenote>
+    <code>4^a   </code><codenote>% 4的a次方</codenote>
     <br>
-    <code>a.'   % 直接转置</code>
-    <code>a.*b  % a与b元素分别相乘</code>
-    <code>a./b  % a与b元素分别相除</code>
-    <code>b.\a  % 同上</code>
-    <code>4.^a  % 4的a各元素次方构成的数组</code>
-    <code>a.^4  % a各元素的4次方构成的数组</code>
+    <code>a.'   </code><codenote>% 直接转置</codenote>
+    <code>a.*b  </code><codenote>% a与b元素分别相乘</codenote>
+    <code>a./b  </code><codenote>% a与b元素分别相除</codenote>
+    <code>b.\a  </code><codenote>% 同上</codenote>
+    <code>4.^a  </code><codenote>% 4的a各元素次方构成的数组</codenote>
+    <code>a.^4  </code><codenote>% a各元素的4次方构成的数组</codenote>
 </pre>
 <p>MATLAB的数据类型包括double, uint8、uint16、boolean、char、str.前3种的转换函数分别为double()、uint8()、uint16().
 <br>char(x)是一个ASCII值为x的字符.str视为char行向量.
@@ -171,10 +177,10 @@
 <br>一套完整的转换流程:</p>
 <pre>
     <code>a = 'Hello world!';</code>
-    <code>rowcode_a = double(a);                        % 转为ASCII值行向量</code>
-    <code>binstr_a = dec2bin(rowcode_a);                % 转为二进制码字符串的列向量</code>
-    <code>bin01_a = double(binstr_a) - double('0');     % 二进制码的字符串拆成01数字</code>
-    <code>colcode_a = bin01_a * (2.^(6:-1:0))';         % 一个常用转化, 重新得到ASCII值列向量</code>
+    <code>rowcode_a = double(a);                        </code><codenote>% 转为ASCII值行向量</codenote>
+    <code>binstr_a = dec2bin(rowcode_a);                </code><codenote>% 转为二进制码字符串的列向量</codenote>
+    <code>bin01_a = double(binstr_a) - double('0');     </code><codenote>% 二进制码的字符串拆成01数字</codenote>
+    <code>colcode_a = bin01_a * (2.^(6:-1:0))';         </code><codenote>% 一个常用转化, 重新得到ASCII值列向量</codenote>
     <code>char(colcode_a')</code>
 </pre>
 <p>常量保留字:</p>
@@ -191,26 +197,26 @@
 <p>进制分为bin、oct、dec、hex, 用bin2dec(x)一类的函数转化.</p>
 <p>用sum、cumsum和prod、cumprod求和与积:</p>
 <pre>
-    <code>sum(a)                % 将平行于轴1(默认)的子数组替换为它的和</code>
-    <code>sum(a, 2)             % 将平行于轴2的子数组替换为它的和</code>
-    <code>sum(a, 'all')         % 全部求和</code>
+    <code>sum(a)                </code><codenote>% 将平行于轴1(默认)的子数组替换为它的和</codenote>
+    <code>sum(a, 2)             </code><codenote>% 将平行于轴2的子数组替换为它的和</codenote>
+    <code>sum(a, 'all')         </code><codenote>% 全部求和</codenote>
     <br>
-    <code>cumsum(a)             % 将平行于轴1(默认)的子数组替换为累积和</code>
-    <code>cumsum(a, 2)          % 将平行于轴2的子数组替换为累积和</code>
-    <code>cumsum(a, 'reverse')  % 'reverse'为反向迭代</code>
+    <code>cumsum(a)             </code><codenote>% 将平行于轴1(默认)的子数组替换为累积和</codenote>
+    <code>cumsum(a, 2)          </code><codenote>% 将平行于轴2的子数组替换为累积和</codenote>
+    <code>cumsum(a, 'reverse')  </code><codenote>% 'reverse'为反向迭代</codenote>
     <br>
-    <code>% prod、cumprod同上</code>
+    <codenote>% prod、cumprod同上</codenote>
 </pre>
 <p>max和min用于求最大最小值:</p>
 <pre>
-    <code>[b, idx1] = max(a)                % b为a平行于轴1(默认)的子数组替换为它的最大值得到的数组, idx1为各最大值在子数组中的索引的数组</code>
-    <code>max(a, [], 2)                     % 平行于轴2</code>
-    <code>max(a, [], 'all')                 % 全数组最大值</code>
-    <code>max(a, [], [2, 3])                % 平行于轴2-3平面的子数组替换为它的最大值得到的数组</code>
-    <code>[~, idx2] = max(a, [], 'linear')  % idx2为各最大值在整个数组的迭代索引的数组</code>
-    <code>max(x, y)                         % 两个形状一样的数组在每个位置上比较并取最大值</code>
+    <code>[b, idx1] = max(a)                </code><codenote>% b为a平行于轴1(默认)的子数组替换为它的最大值得到的数组, idx1为各最大值在子数组中的索引的数组</codenote>
+    <code>max(a, [], 2)                     </code><codenote>% 平行于轴2</codenote>
+    <code>max(a, [], 'all')                 </code><codenote>% 全数组最大值</codenote>
+    <code>max(a, [], [2, 3])                </code><codenote>% 平行于轴2-3平面的子数组替换为它的最大值得到的数组</codenote>
+    <code>[~, idx2] = max(a, [], 'linear')  </code><codenote>% idx2为各最大值在整个数组的迭代索引的数组</codenote>
+    <code>max(x, y)                         </code><codenote>% 两个形状一样的数组在每个位置上比较并取最大值</codenote>
     <br>
-    <code>% min同上</code>
+    <codenote>% min同上</codenote>
 </pre>
 <p>基础的运算符如~(取反)、&(位与)、|(位或)、&&(与)、||(或)按下不论.
 <br>xor(a, b)为异或.
@@ -219,7 +225,7 @@
 <br>同时, 与isnan(x)相似, 我们有isempty(a)判断是否为空.这个主要是检查条件是否存在满足的, 如:</p>
 <pre>
     <code>idx = find(condition); isempty(idx)</code>
-    <code>% 也可以用any</code>
+    <codenote>% 也可以用any</codenote>
     <code>any(condition)</code>
 </pre>
 <h2 id="heading2">数据流式控制</h2>
@@ -259,29 +265,29 @@
 <pre>
     <code>try</code>
     <code>    cmd1</code>
-    <code>catch ME  % 捕获为ME</code>
+    <code>catch ME  </code><codenote>% 捕获为ME</codenote>
     <code>    cmd2</code>
     <code>end</code>
 </pre>
 <h2 id="heading3">数据读写</h2>
 <p>读写文件使用save和load:</p>
 <pre>
-    <code>save file1.mat;                   % 把工作区写入file1.mat</code>
-    <code>save file2.mat a b;               % 把变量a和b写入file2.mat</code>
-    <code>save file2.mat c -append;         % 把变量c追加写入file2.mat</code>
-    <code>save file3.dat d -ascii;          % 把数组d以8位ascii写入file3.dat</code>
-    <code>save file4.dat e -ascii -double;  % 把数组e以16位ascii写入file4.dat</code>
+    <code>save file1.mat;                   </code><codenote>% 把工作区写入file1.mat</codenote>
+    <code>save file2.mat a b;               </code><codenote>% 把变量a和b写入file2.mat</codenote>
+    <code>save file2.mat c -append;         </code><codenote>% 把变量c追加写入file2.mat</codenote>
+    <code>save file3.dat d -ascii;          </code><codenote>% 把数组d以8位ascii写入file3.dat</codenote>
+    <code>save file4.dat e -ascii -double;  </code><codenote>% 把数组e以16位ascii写入file4.dat</codenote>
     <br>
-    <code>load file1.mat;                   % 读取file1.mat</code>
-    <code>load file2.mat a c;               % 读取file2.mat的变量a和c</code>
-    <code>load file3.dat -ascii;            % 读取8位ascii文件file3.dat, 创建数组file3并装入</code>
-    <code>load file4.dat -ascii;            % 读取16位ascii文件file4.dat, 创建数组file4并装入</code>
+    <code>load file1.mat;                   </code><codenote>% 读取file1.mat</codenote>
+    <code>load file2.mat a c;               </code><codenote>% 读取file2.mat的变量a和c</codenote>
+    <code>load file3.dat -ascii;            </code><codenote>% 读取8位ascii文件file3.dat, 创建数组file3并装入</codenote>
+    <code>load file4.dat -ascii;            </code><codenote>% 读取16位ascii文件file4.dat, 创建数组file4并装入</codenote>
 </pre>
 <p>类似于Python的print(), MATLAB有disp().可以用format long、format short一类的语句控制输出格式.</p>
 <b style="color:#FF9966">零星补充:</b>
 <pre style="outline-color:#FF9966">
-    <code>qr(a)     % QR分解</code>
-    <code>svd(a)    % SVD分解(奇异值分解)</code>
+    <code>qr(a)     </code><codenote>% QR分解</codenote>
+    <code>svd(a)    </code><codenote>% SVD分解(奇异值分解)</codenote>
 </pre>
 
             </div>
