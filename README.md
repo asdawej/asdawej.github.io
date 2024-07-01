@@ -60,9 +60,6 @@ title: Welcome to asdawej's space!!!
     - [HTML](https://www.runoob.com/html/html-tutorial.html)
     - [CSS](https://www.runoob.com/css/css-tutorial.html)
     - [JavaScript](https://www.runoob.com/js/js-tutorial.html)
-        - [JSON](https://www.runoob.com/json/json-tutorial.html)
-        - [Node.js](https://www.runoob.com/nodejs/nodejs-tutorial.html)
-        - [AJAX](https://www.runoob.com/ajax/ajax-tutorial.html)
     - [Markdown](https://www.runoob.com/markdown/md-tutorial.html)
     - [Git](https://www.runoob.com/git/git-tutorial.html)
     - [SQL](https://www.runoob.com/sql/sql-tutorial.html)
@@ -93,8 +90,7 @@ title: Welcome to asdawej's space!!!
 <!--清华大学网站-->
 **Tsinghua websites:**
 - [清华大学主页](https://www.tsinghua.edu.cn/)
-- [清华大学信息门户](http://info.tsinghua.edu.cn/)
-- [清华大学信息门户(新版)](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/stu/index)
+- [清华大学信息门户](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/stu/index)
 - [清华大学信息化用户服务平台](https://its.tsinghua.edu.cn/index.jsp)
 - [LambdaOJ2](http://oj.ee.tsinghua.edu.cn/)
 - [清华大学电子科协](https://eesast.com/home)
@@ -110,6 +106,5 @@ title: Welcome to asdawej's space!!!
 - [清华大学在线服务系统](https://thos.tsinghua.edu.cn/)
 - [清华大学云盘](https://cloud.tsinghua.edu.cn/)
 - [清华大学邮箱](https://mails.tsinghua.edu.cn/)
-- [清华大学教参平台](http://reserves.lib.tsinghua.edu.cn/)
-- [清华大学教参平台(新版)](https://ereserves.lib.tsinghua.edu.cn/)
+- [清华大学教参平台](https://ereserves.lib.tsinghua.edu.cn/)
 - [清华大学校友邮箱](http://mail.tsinghua.org.cn/)
