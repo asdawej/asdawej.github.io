@@ -17,6 +17,8 @@ title: Welcome to asdawej's space!!!
 - [fork_asdawej](https://github.com/asdawej/THUAI7)
 - [THUAI7 Docs](https://docs.eesast.com/docs/contests/thuai7/)
 
+**Ponepklyoch:** [asdawej_Ponepklyoch](https://github.com/asdawej/Ponepklyoch)
+
 <!--東方&西方&連縁-->
 **Touhou & Seihou & Len'en Projects:**
 - [東方Projectよもやまニュース](https://touhou-project.news/)
@@ -77,6 +79,7 @@ title: Welcome to asdawej's space!!!
 - [CSKZCN](https://www.cskzcn.com/)
 - [香蕉网-CS 1.6-地图](https://gamebanana.com/mods/cats/5474)
 - [Stack_Overflow](https://stackoverflow.com/) & [Stack_Overflow_CN](https://stackoverflow.org.cn/)
+- [LeetCode](https://leetcode.cn/)
 - [OSCS](https://www.oscs1024.com/)
 - [OI Wiki](https://oi-wiki.org/)
 - [TexPage](https://texpage.com/console/mine/)
