@@ -9,10 +9,6 @@ title: Welcome to asdawej's space!!!
 
 **tff Lang:** [asdawej_tff-Lang](https://github.com/asdawej/tff-Lang)
 
-**PyMatrix:** [asdawej_PyMatrix](https://github.com/asdawej/PyMatrix)
-
-**PyCharGraphics:** [asdawej_PyCharGraphics](https://github.com/asdawej/PyCharGraphics)
-
 **THUAI7:** [EESAST_THUAI7](https://github.com/eesast/THUAI7)
 - [fork_asdawej](https://github.com/asdawej/THUAI7)
 - [THUAI7 Docs](https://docs.eesast.com/docs/contests/thuai7/)
@@ -20,7 +16,7 @@ title: Welcome to asdawej's space!!!
 **Ponepklyoch:** [asdawej_Ponepklyoch](https://github.com/asdawej/Ponepklyoch)
 
 <!--東方&西方&連縁-->
-**Touhou & Seihou & Len'en Projects:**
+## Touhou & Seihou & Len'en Projects:
 - [東方Projectよもやまニュース](https://touhou-project.news/)
 - [THBWiki](https://thwiki.cc/%E9%A6%96%E9%A1%B5/)
 - [莉莉云](https://cloud.lilywhite.cc/front/)
@@ -30,7 +26,7 @@ title: Welcome to asdawej's space!!!
 - [Ferdy's Lab](https://ferdyslab.itch.io/)
 
 <!--其他的网站-->
-**Useful websites:**
+## Useful websites:
 - [Compiler Explorer](https://godbolt.org/)
 - [C#文档](https://learn.microsoft.com/zh-cn/dotnet/csharp/)
 - [Python文档](https://docs.python.org/zh-cn/3/)
@@ -91,7 +87,7 @@ title: Welcome to asdawej's space!!!
 <!--split-->
 
 <!--清华大学网站-->
-**Tsinghua websites:**
+## Tsinghua websites:
 - [清华大学主页](https://www.tsinghua.edu.cn/)
 - [清华大学信息门户](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/stu/index)
 - [清华大学信息化用户服务平台](https://its.tsinghua.edu.cn/index.jsp)
