@@ -89,6 +89,7 @@ title: Welcome to asdawej's space!!!
 <!--清华大学网站-->
 ## Tsinghua websites:
 - [清华大学主页](https://www.tsinghua.edu.cn/)
+- [清华大学电子工程系](https://www.ee.tsinghua.edu.cn/)
 - [清华大学信息门户](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/stu/index)
 - [清华大学信息化用户服务平台](https://its.tsinghua.edu.cn/index.jsp)
 - [Overleaf](https://overleaf.tsinghua.edu.cn/project)
