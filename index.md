@@ -20,7 +20,7 @@ title: Welcome to asdawej's space!!!
 - [東方Projectよもやまニュース](https://touhou-project.news/)
 - [THBWiki](https://thwiki.cc/%E9%A6%96%E9%A1%B5/)
 - [莉莉云](https://cloud.lilywhite.cc/front/)
-- [Len'en Wiki](http://www.lenen.shoutwiki.com/wiki/Len'en_Wiki)
+- [Len'en Wiki](https://lenen.wiki.gg/)
 - [Trick Nostalgie(JynX)](http://mugentrick.tubakurame.com/index.html)
 - [連縁カフェ(β版)](https://unityroom.com/games/lenen_cafe_beta)
 - [Ferdy's Lab](https://ferdyslab.itch.io/)
