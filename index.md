@@ -103,6 +103,7 @@ title: Welcome to asdawej's space!!!
 - [清华大学图书馆](https://lib.tsinghua.edu.cn/)
 - [清华大学网络学堂](https://learn.tsinghua.edu.cn/f/login/)
 - [清华大学选课系统](http://zhjwxk.cic.tsinghua.edu.cn/xklogin.do)
+- [清华大学研究生申请服务系统](https://yzbm.tsinghua.edu.cn/index)
 - [星期四社区](https://tsinghua.app/)
 - [1911星球](https://planet.tsinghua.edu.cn/)
 - [清华家园网](http://myhome.tsinghua.edu.cn/)
