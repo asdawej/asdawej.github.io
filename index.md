@@ -10,10 +10,10 @@ title: Welcome to asdawej's space!!!
 **tff Lang:** [asdawej_tff-Lang](https://github.com/asdawej/tff-Lang)
 
 **THUAI7:** [EESAST_THUAI7](https://github.com/eesast/THUAI7)
-- [fork_asdawej](https://github.com/asdawej/THUAI7)
-- [THUAI7 Docs](https://docs.eesast.com/docs/contests/thuai7/)
 
 **Ponepklyoch:** [asdawej_Ponepklyoch](https://github.com/asdawej/Ponepklyoch)
+
+**Hanize - Civil War in Russia:** [asdawej_hanize_Civil-War-in-Russia](https://paratranz.cn/projects/16713)
 
 <!--東方&西方&連縁-->
 ## Touhou & Seihou & Len'en Projects:
@@ -71,6 +71,7 @@ title: Welcome to asdawej's space!!!
 - [萌娘百科](https://zh.moegirl.org.cn/Mainpage)
 - [樱花动漫](http://www.imomoedm.com/)
 - [ModDB](https://www.moddb.com/)
+- [ParaTranz](https://paratranz.cn/projects)
 - [骑砍中文站](https://www.mountblade.com.cn/index.html)
 - [CSKZCN](https://www.cskzcn.com/)
 - [香蕉网-CS 1.6-地图](https://gamebanana.com/mods/cats/5474)
