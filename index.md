@@ -15,6 +15,8 @@ title: Welcome to asdawej's space!!!
 
 **Hanize - Civil War in Russia:** [asdawej_hanize_Civil-War-in-Russia](https://paratranz.cn/projects/16713)
 
+**Godot Shader Script:** [asdawej_godot-shader-script](https://github.com/asdawej/godot-shader-script)
+
 <!--東方&西方&連縁-->
 ## Touhou & Seihou & Len'en Projects:
 - [東方Projectよもやまニュース](https://touhou-project.news/)
