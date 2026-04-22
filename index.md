@@ -17,6 +17,8 @@ title: Welcome to asdawej's space!!!
 
 **GD Shader Script:** [asdawej_gd-shader-script](https://github.com/asdawej/gd-shader-script)
 
+**Ridmag's Board Game Engine:** [asdawej_ridmag-s-board-game-engine](https://github.com/asdawej/ridmag-s-board-game-engine)
+
 <!--東方&西方&連縁-->
 ## Touhou & Seihou & Len'en Projects:
 - [東方Projectよもやまニュース](https://touhou-project.news/)
