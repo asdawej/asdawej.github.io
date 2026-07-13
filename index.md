@@ -1,5 +1,5 @@
 ---
-layout: default_full
+layout: default
 title: Welcome to asdawej's space!!!
 ---
 
@@ -88,33 +88,3 @@ title: Welcome to asdawej's space!!!
 - [有道云笔记](https://note.youdao.com/web/)
 - [QQ邮箱](https://mail.qq.com/cgi-bin/frame_html)
 - [网易邮箱](https://mail.163.com/js6/main.jsp)
-
-<!--split-->
-
-<!--清华大学网站-->
-## Tsinghua websites:
-- [清华大学主页](https://www.tsinghua.edu.cn/)
-- [清华大学电子工程系](https://www.ee.tsinghua.edu.cn/)
-- [清华大学信息门户](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/xnzx/stu/index)
-- [清华大学信息化用户服务平台](https://its.tsinghua.edu.cn/index.jsp)
-- [Overleaf](https://overleaf.tsinghua.edu.cn/project)
-- [Deepseek](https://madmodel.cs.tsinghua.edu.cn/)
-- [ChatGLM](https://chatglm.cn/)
-- [LambdaOJ2](http://oj.ee.tsinghua.edu.cn/)
-- [清华大学电子科协](https://eesast.com/home)
-- [清华大学TUNA协会](https://tuna.moe/)
-- [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
-- [清华大学教学门户](https://info2021.tsinghua.edu.cn/f/info/xxfb_fg/bmxx/departmentalView?code=254)
-- [清华大学图书馆](https://lib.tsinghua.edu.cn/)
-- [清华大学网络学堂](https://learn.tsinghua.edu.cn/f/login/)
-- [清华大学选课系统](http://zhjwxk.cic.tsinghua.edu.cn/xklogin.do)
-- [清华大学电子系教务系统](https://info.ee.tsinghua.edu.cn/f/common/main)
-- [清华大学研究生申请服务系统](https://yzbm.tsinghua.edu.cn/index)
-- [星期四社区](https://tsinghua.app/)
-- [1911星球](https://planet.tsinghua.edu.cn/)
-- [清华家园网](http://myhome.tsinghua.edu.cn/)
-- [清华大学在线服务系统](https://thos.tsinghua.edu.cn/)
-- [清华大学云盘](https://cloud.tsinghua.edu.cn/)
-- [清华大学邮箱](https://mails.tsinghua.edu.cn/)
-- [清华大学教参平台](https://ereserves.lib.tsinghua.edu.cn/)
-- [清华大学校友邮箱](http://mail.tsinghua.org.cn/)
